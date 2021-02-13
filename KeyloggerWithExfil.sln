@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyloggerWithExfil", "KeyloggerWithExfil\KeyloggerWithExfil.vcxproj", "{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyloggerDLL", "KeyloggerDLL\KeyloggerDLL.vcxproj", "{48883967-48F1-40D2-89C8-B11D2EE36BB7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KeyloggerExfilServer", "KeyloggerExfilServer\KeyloggerExfilServer.pyproj", "{A37E5B24-51B9-47BF-807F-C62280FF2C14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Debug|x64.ActiveCfg = Debug|x64
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Debug|x64.Build.0 = Debug|x64
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Debug|x86.Build.0 = Debug|Win32
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Release|x64.ActiveCfg = Release|x64
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Release|x64.Build.0 = Release|x64
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Release|x86.ActiveCfg = Release|Win32
+		{2C4477DD-EC34-4D51-AA40-5C91ECF30D3B}.Release|x86.Build.0 = Release|Win32
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Debug|x64.ActiveCfg = Debug|x64
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Debug|x64.Build.0 = Debug|x64
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Debug|x86.ActiveCfg = Debug|Win32
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Debug|x86.Build.0 = Debug|Win32
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Release|Any CPU.ActiveCfg = Release|Win32
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Release|x64.ActiveCfg = Release|x64
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Release|x64.Build.0 = Release|x64
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Release|x86.ActiveCfg = Release|Win32
+		{48883967-48F1-40D2-89C8-B11D2EE36BB7}.Release|x86.Build.0 = Release|Win32
+		{A37E5B24-51B9-47BF-807F-C62280FF2C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37E5B24-51B9-47BF-807F-C62280FF2C14}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A37E5B24-51B9-47BF-807F-C62280FF2C14}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A37E5B24-51B9-47BF-807F-C62280FF2C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37E5B24-51B9-47BF-807F-C62280FF2C14}.Release|x64.ActiveCfg = Release|Any CPU
+		{A37E5B24-51B9-47BF-807F-C62280FF2C14}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8856DE31-7947-4F45-8AA2-B750DCCF1786}
+	EndGlobalSection
+EndGlobal
