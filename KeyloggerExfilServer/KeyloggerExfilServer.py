@@ -44,8 +44,7 @@ class TCPHandler(socketserver.BaseRequestHandler):
 			print("Connection force closed by client")
 
 # Encryption setup to mimic Wincrypt
-# Python UTF-16 encoding results in two extra bytes at the front; cut them off
-passwd = "ThisIsMyEncryptionKey".encode('utf-16')[2:]
+passwd = "ThisIsMyEncryptionKey".encode('utf-16le')
 sha1_passwd = hashlib.sha1(passwd).digest()
 buff36 = [0x36 for i in range(64)]
 buff5c = [0x5c for i in range(64)]
